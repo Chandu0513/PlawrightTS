@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6","Sample","firefox","Fri Nov 07 15:11:12 IST 2025","passed","Fri Nov 07 15:11:12 IST 2025","","login.spec.ts","",""
+"","9","Sample","webkit","Fri Nov 07 15:11:12 IST 2025","passed","Fri Nov 07 15:11:12 IST 2025","","login.spec.ts","",""
+"","6","Sample","chromium","Fri Nov 07 15:11:12 IST 2025","passed","Fri Nov 07 15:11:12 IST 2025","","login.spec.ts","",""

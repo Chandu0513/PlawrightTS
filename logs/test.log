@@ -1,0 +1,144 @@
+[18:58:14] info: Initializing browser: chromium, headless: false
+[18:58:15] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:58:16] info: Starting Admin Login flow
+[18:58:16] step: Filling email: testUserAdmin07112025@gmail.com
+[18:58:17] step: Filling password
+[18:58:17] success: Admin login completed successfully!
+[18:58:17] info: Tearing down browser session...
+[18:58:17] success: Browser session closed successfully.
+[18:58:17] info: Initializing browser: chromium, headless: false
+[18:58:18] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:58:19] info: Starting Employee Login flow
+[18:58:19] step: Filling email: testemp07112025@gmail.com
+[18:58:20] step: Filling password
+[18:58:20] success: Employee login completed successfully!
+[18:58:20] info: Tearing down browser session...
+[18:58:20] success: Browser session closed successfully.
+[19:00:14] info: Initializing browser: chromium, headless: false
+[19:00:14] info: Initializing browser: chromium, headless: false
+[19:00:14] info: Initializing browser: chromium, headless: false
+[19:00:16] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:00:16] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:00:16] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:00:17] info: Starting Admin Login flow
+[19:00:17] step: Filling email: testUserAdmin07112025@gmail.com
+[19:00:17] step: Filling password
+[19:00:18] info: Starting Admin Login flow
+[19:00:18] step: Filling email: testUserAdmin07112025@gmail.com
+[19:00:18] success: Admin login completed successfully!
+[19:00:18] info: Tearing down browser session...
+[19:00:18] step: Filling password
+[19:00:18] success: Admin login completed successfully!
+[19:00:18] info: Tearing down browser session...
+[19:00:18] success: Browser session closed successfully.
+[19:00:19] info: Initializing browser: chromium, headless: false
+[19:00:19] info: Starting Admin Login flow
+[19:00:19] step: Filling email: testUserAdmin07112025@gmail.com
+[19:00:19] step: Filling password
+[19:00:19] success: Browser session closed successfully.
+[19:00:19] info: Initializing browser: chromium, headless: false
+[19:00:19] success: Admin login completed successfully!
+[19:00:19] info: Tearing down browser session...
+[19:00:20] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:00:21] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:00:21] success: Browser session closed successfully.
+[19:00:21] info: Initializing browser: chromium, headless: false
+[19:00:22] info: Starting Employee Login flow
+[19:00:22] step: Filling email: testemp07112025@gmail.com
+[19:00:22] step: Filling password
+[19:00:22] success: Employee login completed successfully!
+[19:00:22] info: Tearing down browser session...
+[19:00:22] info: Starting Employee Login flow
+[19:00:22] step: Filling email: testemp07112025@gmail.com
+[19:00:22] step: Filling password
+[19:00:23] success: Employee login completed successfully!
+[19:00:23] info: Tearing down browser session...
+[19:00:23] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:00:23] success: Browser session closed successfully.
+[19:00:23] success: Browser session closed successfully.
+[19:00:24] info: Starting Employee Login flow
+[19:00:24] step: Filling email: testemp07112025@gmail.com
+[19:00:24] step: Filling password
+[19:00:24] success: Employee login completed successfully!
+[19:00:24] info: Tearing down browser session...
+[19:00:25] success: Browser session closed successfully.
+[19:02:29] info: Initializing browser: chromium, headless: false
+[19:02:29] info: Initializing browser: chromium, headless: false
+[19:02:29] info: Initializing browser: chromium, headless: false
+[19:02:30] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:02:31] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:02:31] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:02:33] info: Starting Admin Login flow
+[19:02:33] step: Filling email: testUserAdmin07112025@gmail.com
+[19:02:33] info: Starting Admin Login flow
+[19:02:33] step: Filling email: testUserAdmin07112025@gmail.com
+[19:02:33] step: Filling password
+[19:02:33] step: Filling password
+[19:02:33] success: Admin login completed successfully!
+[19:02:33] info: Tearing down browser session...
+[19:02:33] success: Admin login completed successfully!
+[19:02:33] info: Tearing down browser session...
+[19:02:33] info: Starting Admin Login flow
+[19:02:33] step: Filling email: testUserAdmin07112025@gmail.com
+[19:02:34] step: Filling password
+[19:02:34] success: Admin login completed successfully!
+[19:02:34] info: Tearing down browser session...
+[19:02:34] success: Browser session closed successfully.
+[19:02:34] info: Starting Employee Login flow
+[19:02:34] step: Filling email: testemp07112025@gmail.com
+[19:02:34] info: Tearing down browser session...
+[19:02:34] success: Browser session closed successfully.
+[19:02:34] success: Browser session closed successfully.
+[19:02:34] info: Starting Employee Login flow
+[19:02:34] step: Filling email: testemp07112025@gmail.com
+[19:02:34] info: Tearing down browser session...
+[19:02:34] success: Browser session closed successfully.
+[19:02:34] success: Browser session closed successfully.
+[19:02:34] info: Starting Employee Login flow
+[19:02:34] step: Filling email: testemp07112025@gmail.com
+[19:02:34] info: Tearing down browser session...
+[19:02:34] success: Browser session closed successfully.
+[19:04:35] info: Initializing browser: chromium, headless: false
+[19:04:36] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:04:37] info: Starting Admin Login flow
+[19:04:37] step: Filling email: testUserAdmin07112025@gmail.com
+[19:04:37] step: Filling password
+[19:04:37] success: Admin login completed successfully!
+[19:04:37] info: Tearing down browser session...
+[19:04:37] success: Browser session closed successfully.
+[19:04:37] info: Starting Employee Login flow
+[19:04:37] step: Filling email: testemp07112025@gmail.com
+[19:04:37] info: Tearing down browser session...
+[19:04:37] success: Browser session closed successfully.
+[19:05:01] info: Initializing browser: chromium, headless: false
+[19:05:02] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:05:03] info: Starting Admin Login flow
+[19:05:03] step: Filling email: testUserAdmin07112025@gmail.com
+[19:05:03] step: Filling password
+[19:05:03] success: Admin login completed successfully!
+[19:05:03] info: Tearing down browser session...
+[19:05:04] success: Browser session closed successfully.
+[19:05:04] info: Initializing browser: chromium, headless: false
+[19:05:05] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:05:05] info: Starting Employee Login flow
+[19:05:05] step: Filling email: testemp07112025@gmail.com
+[19:05:06] step: Filling password
+[19:05:06] success: Employee login completed successfully!
+[19:05:06] info: Tearing down browser session...
+[19:05:06] success: Browser session closed successfully.
+[19:06:49] info: Initializing browser: chromium, headless: false
+[19:06:49] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:06:50] info: Starting Admin Login flow
+[19:06:50] step: Filling email: testUserAdmin07112025@gmail.com
+[19:06:50] step: Filling password
+[19:06:50] success: Admin login completed successfully!
+[19:06:50] info: Tearing down browser session...
+[19:06:51] success: Browser session closed successfully.
+[19:06:51] info: Initializing browser: chromium, headless: false
+[19:06:52] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:06:53] info: Starting Employee Login flow
+[19:06:53] step: Filling email: testemp07112025@gmail.com
+[19:06:53] step: Filling password
+[19:06:53] success: Employee login completed successfully!
+[19:06:53] info: Tearing down browser session...
+[19:06:53] success: Browser session closed successfully.

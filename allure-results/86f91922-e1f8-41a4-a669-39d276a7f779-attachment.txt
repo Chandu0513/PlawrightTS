@@ -1,0 +1,4 @@
+[19:04:37] info: Starting Employee Login flow
+[19:04:37] step: Filling email: testemp07112025@gmail.com
+[19:04:37] info: Tearing down browser session...
+[19:04:37] success: Browser session closed successfully.
