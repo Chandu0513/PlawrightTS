@@ -10,5 +10,5 @@
     "types": ["node", "@playwright/test"],
     "outDir": "dist"
   },
-  "include": ["tests", "pages", "utils", "configs", "ai-agents", "data"]
+  "include": ["tests", "pages", "utils", "configs", "ai-agents", "data", "playwright.config.ts"]
 }
