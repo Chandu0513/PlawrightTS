@@ -1,0 +1,13 @@
+[15:28:16] info: Initializing browser: chromium, headless: false
+[15:28:17] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:28:18] info: Starting Admin Login flow
+[15:28:18] step: Filling email: testUserAdmin07112025@gmail.com
+[15:28:18] step: Filling password
+[15:28:20] success: Admin login completed successfully!
+[15:28:20] info: Opening Add Employee modal...
+[15:28:21] info: Filling Add Employee form...
+[15:28:22] success: Employee form filled successfully for Dolores Auer
+[15:28:22] info: Submitting Add Employee form...
+[15:28:22] success: Add Employee modal closed after submission.
+[15:28:22] info: Tearing down browser session...
+[15:28:23] success: Browser session closed successfully.

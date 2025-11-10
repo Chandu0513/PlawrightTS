@@ -8,7 +8,7 @@ export class LoginPage extends BasePage {
   private loginButton = 'button[type="submit"]';
 
   constructor(basePage: BasePage) {
-    super();
+    super(basePage.page); 
     this.page = basePage.page; 
   }
 
@@ -19,6 +19,7 @@ export class LoginPage extends BasePage {
     log.step(`Filling password`);
     await this.page.fill(this.passwordLoginInput, ConfigReader.getAdminPassword());
     await this.page.click(this.loginButton);
+    await this.page.waitForLoadState('networkidle');
     log.success('Admin login completed successfully!');
   }
 
@@ -29,6 +30,7 @@ export class LoginPage extends BasePage {
     log.step(`Filling password`);
     await this.page.fill(this.passwordLoginInput, ConfigReader.getEmpPassword());
     await this.page.click(this.loginButton);
+    await this.page.waitForLoadState('networkidle');
     log.success('Employee login completed successfully!');
   }
 }

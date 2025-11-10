@@ -1,0 +1,13 @@
+[16:06:58] info: Initializing browser: chromium, headless: false
+[16:06:58] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:07:00] info: Starting Admin Login flow
+[16:07:00] step: Filling email: testUserAdmin07112025@gmail.com
+[16:07:00] step: Filling password
+[16:07:01] success: Admin login completed successfully!
+[16:07:01] info: Opening Add Employee modal...
+[16:07:02] info: Filling Add Employee form...
+[16:07:03] success: Employee form filled successfully for Vallie Borer (ID: EMP2491)
+[16:07:03] info: Submitting Add Employee form...
+[16:07:03] success: Add Employee modal closed after submission.
+[16:07:03] info: Tearing down browser session...
+[16:07:04] success: Browser session closed successfully.

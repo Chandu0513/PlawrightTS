@@ -1,0 +1,13 @@
+[15:24:54] info: Initializing browser: chromium, headless: false
+[15:24:55] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:24:56] info: Starting Admin Login flow
+[15:24:56] step: Filling email: testUserAdmin07112025@gmail.com
+[15:24:56] step: Filling password
+[15:24:57] success: Admin login completed successfully!
+[15:24:57] info: Opening Add Employee modal...
+[15:24:58] info: Filling Add Employee form...
+[15:25:00] success: Employee form filled successfully for Beaulah Hickle
+[15:25:00] info: Submitting Add Employee form...
+[15:25:00] success: Add Employee modal closed after submission.
+[15:25:16] info: Tearing down browser session...
+[15:25:17] success: Browser session closed successfully.

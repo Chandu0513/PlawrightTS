@@ -7,7 +7,11 @@ export class BasePage {
   context!: BrowserContext;
   page!: Page;
 
-  constructor() {}
+  constructor(page?: Page) {
+    if (page) {
+      this.page = page;
+    }
+  }
 
   async init() {
     const browserType = ConfigReader.getBrowser();
@@ -27,13 +31,13 @@ export class BasePage {
         this.browser = await chromium.launch({ headless });
     }
 
-    
     this.context = await this.browser.newContext();
     this.page = await this.context.newPage();
+    
 
-      if (baseURL) {
+    if (baseURL) {
       log.info(`Navigating to base URL: ${baseURL}`);
-      await this.page.goto(baseURL);
+      await this.page.goto(baseURL, { waitUntil: 'load' }); 
     } else {
       log.warn('No BASE_URL found in environment or config file.');
     }

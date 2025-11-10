@@ -1,0 +1,4 @@
+[14:52:48] info: Initializing browser: chromium, headless: false
+[14:52:49] info: Navigating to base URL: https://dev.urbuddi.com/
+[14:52:51] info: Tearing down browser session...
+[14:52:51] success: Browser session closed successfully.

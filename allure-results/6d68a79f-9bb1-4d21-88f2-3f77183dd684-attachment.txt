@@ -1,0 +1,3 @@
+[16:26:22] info: Initializing browser: chromium, headless: false
+[16:26:23] info: Closing browser session...
+[16:26:25] success: Browser closed successfully.
