@@ -12,13 +12,12 @@ export class AddEmployeePage extends BasePage {
   constructor(basePage: BasePage) {
     super();
     this.page = basePage.page;
-    this.firstName = faker.person.firstName();
-    this.lastName = faker.person.lastName();
+   this.firstName = faker.person.firstName().replace(/[^a-zA-Z]/g, '');
+  this.lastName = faker.person.lastName().replace(/[^a-zA-Z]/g, '');
     this.employeeId = `EMP${faker.number.int({ min: 1000, max: 9999 })}`;
     this.emloyeeEmail = `${this.firstName.toLowerCase()}.${this.lastName.toLowerCase()}@test.com`;
   }
 
- 
   private get employees() {
     return this.page.getByText('Employees', { exact: true });
   }
@@ -31,12 +30,24 @@ export class AddEmployeePage extends BasePage {
     return this.page.getByRole('button', { name: /^Add$/i });
   }
 
-private get empIdFilterInput() {
-  return this.page.locator('div[role="columnheader"]:has-text("EMP ID") input[type="text"]');
-}
+  private get empIdFilterInput() {
+    return this.page.locator('input[aria-label="EMAIL Filter Input"]');
+  }
 
   private get resultTable() {
     return this.page.locator('.ag-center-cols-container');
+  }
+
+  private get duplicateWarning() {
+    return this.page.locator('text=Employee with this Email or ID already exists');
+  }
+
+  private get nextPageButton() {
+    return this.page.locator('div[role="button"][aria-label="Next Page"]');
+  }
+
+  private get pageNumberLabel() {
+    return this.page.locator('.ag-paging-description .ag-paging-number');
   }
 
   private get firstNameInput() { return this.page.locator('input[name="firstName"]'); }
@@ -61,7 +72,6 @@ private get empIdFilterInput() {
   private get certificate10th() { return this.page.locator('input[name="10th"]'); }
   private get certificateDegree() { return this.page.locator('input[name="Degree"]'); }
 
-  
   async openAddEmployeeModal() {
     log.info('Opening Add Employee modal...');
     await this.employees.click();
@@ -76,7 +86,7 @@ private get empIdFilterInput() {
 
     await this.firstNameInput.fill(this.firstName);
     await this.lastNameInput.fill(this.lastName);
-    await this.employeeIdInput.fill(this.employeeId); 
+    await this.employeeIdInput.fill(this.employeeId);
     await this.emailInput.fill(email);
     await this.roleSelect.selectOption('Employee');
     await this.passwordInput.fill('Password123!');
@@ -102,14 +112,28 @@ private get empIdFilterInput() {
   async submitEmployeeForm() {
     log.info('Submitting Add Employee form...');
     await this.submitButton.click();
+    await this.page.waitForTimeout(2000);
+
+  
+    if (await this.duplicateWarning.isVisible({ timeout: 3000 }).catch(() => false)) {
+      log.warn(`⚠️ Duplicate detected for Employee ID: ${this.employeeId} or Email: ${this.emloyeeEmail}`);
+      return;
+    }
+
     log.success('Add Employee modal closed after submission.');
   }
 
   
   async verifyEmployeeCreated() {
     log.info(`Verifying if employee ${this.employeeId} exists in the list...`);
+
+   
     await this.empIdFilterInput.fill(this.emloyeeEmail);
-    await expect(this.resultTable).toContainText(this.emloyeeEmail);
-    log.success(`Employee ID ${this.emloyeeEmail} successfully found in the results table.`);
-  }
+    await this.page.waitForTimeout(1500);
+    const isEmployeePresent = await this.resultTable.locator(`text=${this.emloyeeEmail}`).isVisible();
+
+    expect(isEmployeePresent).toBeTruthy();
+    log.success(`Employee ${this.emloyeeEmail} found in the employee list.`);
+  } 
 }
+

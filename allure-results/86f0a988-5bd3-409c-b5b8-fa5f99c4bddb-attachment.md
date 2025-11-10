@@ -1,0 +1,181 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - link "logo" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "logo" [ref=e6]
+    - generic [ref=e7]:
+      - button [ref=e8] [cursor=pointer]:
+        - img [ref=e10]
+      - button "profile-pic" [ref=e12] [cursor=pointer]:
+        - link "profile-pic" [ref=e13]:
+          - /url: /profile
+          - img "profile-pic" [ref=e14]
+  - generic [ref=e16]:
+    - navigation [ref=e18]:
+      - list [ref=e19]:
+        - listitem [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - link "Dashboard" [ref=e23] [cursor=pointer]:
+          - /url: /
+          - listitem [ref=e24]:
+            - img [ref=e26]
+            - paragraph [ref=e29]: Dashboard
+        - link "Employees" [ref=e30] [cursor=pointer]:
+          - /url: /allemployees
+          - listitem [ref=e31]:
+            - img [ref=e33]
+            - paragraph [ref=e36]: Employees
+        - link "Leave Management" [ref=e37] [cursor=pointer]:
+          - /url: /leave_management
+          - listitem [ref=e38]:
+            - img [ref=e40]
+            - paragraph [ref=e42]: Leave Management
+        - link "Salary Management" [ref=e43] [cursor=pointer]:
+          - /url: /salary
+          - listitem [ref=e44]:
+            - img [ref=e46]
+            - paragraph [ref=e48]: Salary Management
+        - link "Payslip" [ref=e49] [cursor=pointer]:
+          - /url: /payslip/OW6969
+          - listitem [ref=e50]:
+            - img [ref=e52]
+            - paragraph [ref=e54]: Payslip
+        - link "Resource Tracking" [ref=e55] [cursor=pointer]:
+          - /url: /resource_tracking
+          - listitem [ref=e56]:
+            - img [ref=e58]
+            - paragraph [ref=e61]: Resource Tracking
+        - link "Reimbursement" [ref=e62] [cursor=pointer]:
+          - /url: /reimbursement
+          - listitem [ref=e63]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Reimbursement
+        - link "Expenditure" [ref=e68] [cursor=pointer]:
+          - /url: /expenditure
+          - listitem [ref=e69]:
+            - img [ref=e71]
+            - paragraph [ref=e73]: Expenditure
+        - link "Policies" [ref=e74] [cursor=pointer]:
+          - /url: /policies
+          - listitem [ref=e75]:
+            - img [ref=e77]
+            - paragraph [ref=e79]: Policies
+      - separator [ref=e80]
+      - list [ref=e81]:
+        - link "Your Profile" [ref=e82] [cursor=pointer]:
+          - /url: /profile
+          - listitem [ref=e83]:
+            - img [ref=e85]
+            - paragraph [ref=e88]: Your Profile
+        - link "Leave Overview" [ref=e89] [cursor=pointer]:
+          - /url: /LeavesOverview
+          - listitem [ref=e90]:
+            - img [ref=e92]
+            - paragraph [ref=e94]: Leave Overview
+        - link "Settings" [ref=e95] [cursor=pointer]:
+          - /url: /settings
+          - listitem [ref=e96]:
+            - img [ref=e98]
+            - paragraph [ref=e101]: Settings
+        - listitem [ref=e102]:
+          - img [ref=e104]
+          - paragraph [ref=e107]: Logout
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - paragraph [ref=e110]: Employees
+        - generic [ref=e111]:
+          - button "Import Excel Sheet" [ref=e112] [cursor=pointer]
+          - button "Export Data" [ref=e114] [cursor=pointer]
+          - button "Add Employee" [ref=e115] [cursor=pointer]
+      - generic [ref=e116]:
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - button "Active" [ref=e119] [cursor=pointer]
+          - listitem [ref=e120]:
+            - button "Released" [ref=e121] [cursor=pointer]
+        - generic [ref=e125]:
+          - treegrid [ref=e126]:
+            - generic [ref=e127]:
+              - row "EMP ID NAME" [ref=e128]:
+                - columnheader "EMP ID" [ref=e129]:
+                  - text: 
+                  - generic [ref=e130]: 
+                  - generic [ref=e131] [cursor=pointer]: EMP ID
+                  - text: 
+                  - generic:    
+                - columnheader "NAME" [ref=e132]:
+                  - text: 
+                  - generic [ref=e133]: 
+                  - generic [ref=e134]: NAME
+                  - text: 
+                  - generic: 
+                - columnheader [ref=e135]:
+                  - generic [ref=e136]:
+                    - checkbox [ref=e137]
+                    - text: 
+                  - text: 
+                  - generic: 
+                - columnheader [ref=e138]:
+                  - text: 
+                  - text: 
+                  - generic: 
+                - columnheader [ref=e139]:
+                  - text: 
+                  - text: 
+                  - generic: 
+                - columnheader [ref=e140]:
+                  - text: 
+                  - text: 
+                  - generic: 
+              - row "Open Filter Menu Open Filter Menu" [ref=e141]:
+                - gridcell "Open Filter Menu" [ref=e142]:
+                  - textbox "EMP ID Filter Input" [ref=e143]
+                  - button "Open Filter Menu" [ref=e145] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e146]:
+                  - textbox "NAME Filter Input" [ref=e147]
+                  - button "Open Filter Menu" [ref=e149] [cursor=pointer]: 
+                - gridcell [ref=e150]
+                - gridcell [ref=e151]
+                - gridcell [ref=e152]
+                - gridcell [ref=e153]
+            - rowgroup [ref=e154]:
+              - row "EMAIL ROLE DESIGNATION" [ref=e155]:
+                - columnheader "EMAIL" [ref=e156]:
+                  - text: 
+                  - generic [ref=e157]: 
+                  - generic [ref=e158]: EMAIL
+                  - generic [ref=e159]: 
+                  - generic: 
+                - columnheader "ROLE" [ref=e160]:
+                  - text: 
+                  - generic [ref=e161]: 
+                  - generic [ref=e162]: ROLE
+                  - text: 
+                  - generic: 
+                - columnheader "DESIGNATION" [ref=e163]:
+                  - text: 
+                  - generic [ref=e164]: 
+                  - generic [ref=e165]: DESIGNATION
+                  - text: 
+                  - generic: 
+              - row "EMP3581 Open Filter Menu Open Filter Menu Open Filter Menu" [ref=e166]:
+                - gridcell "EMP3581 Open Filter Menu" [ref=e167]:
+                  - textbox "EMAIL Filter Input" [active] [ref=e168]: EMP3581
+                  - button "Open Filter Menu" [ref=e170] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e171]:
+                  - textbox "ROLE Filter Input" [ref=e172]
+                  - button "Open Filter Menu" [ref=e174] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e175]:
+                  - textbox "DESIGNATION Filter Input" [ref=e176]
+                  - button "Open Filter Menu" [ref=e178] [cursor=pointer]: 
+          - generic [ref=e183]:
+            - status [ref=e184]: 0 to 0 of 0
+            - button "First Page" [disabled] [ref=e185]: 
+            - button "Previous Page" [disabled] [ref=e186]: 
+            - status [ref=e187]: Page 0 of 0
+            - button "Next Page" [disabled] [ref=e188]: 
+            - button "Last Page" [disabled] [ref=e189]: 
+```
