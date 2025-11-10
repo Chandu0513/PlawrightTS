@@ -23,8 +23,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright tests in headed mode (CI)
-        run: xvfb-run -a npx playwright test
+      - name: Run Playwright tests in headless mode
+        run: npx playwright test --headed=false
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}

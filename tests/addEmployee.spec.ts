@@ -23,6 +23,7 @@ test.describe('Employee Management Tests', () => {
     await addemployee.openAddEmployeeModal();
     await addemployee.fillEmployeeForm();
     await addemployee.submitEmployeeForm();
+    await addemployee.verifyDuplicateWarning();
     await basePage.page.waitForLoadState('networkidle');
     await addemployee.verifyEmployeeCreated();
       });

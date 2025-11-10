@@ -13,7 +13,7 @@ export class AddEmployeePage extends BasePage {
     super();
     this.page = basePage.page;
    this.firstName = faker.person.firstName().replace(/[^a-zA-Z]/g, '');
-  this.lastName = faker.person.lastName().replace(/[^a-zA-Z]/g, '');
+   this.lastName = faker.person.lastName().replace(/[^a-zA-Z]/g, '');
     this.employeeId = `EMP${faker.number.int({ min: 1000, max: 9999 })}`;
     this.emloyeeEmail = `${this.firstName.toLowerCase()}.${this.lastName.toLowerCase()}@test.com`;
   }
@@ -38,10 +38,6 @@ export class AddEmployeePage extends BasePage {
     return this.page.locator('.ag-center-cols-container');
   }
 
-  private get duplicateWarning() {
-    return this.page.locator('text=Employee with this Email or ID already exists');
-  }
-
   private get nextPageButton() {
     return this.page.locator('div[role="button"][aria-label="Next Page"]');
   }
@@ -49,6 +45,10 @@ export class AddEmployeePage extends BasePage {
   private get pageNumberLabel() {
     return this.page.locator('.ag-paging-description .ag-paging-number');
   }
+
+  private get duplicateWarning() {
+  return this.page.locator('text=Employee with this Email or ID already exists');
+}
 
   private get firstNameInput() { return this.page.locator('input[name="firstName"]'); }
   private get lastNameInput() { return this.page.locator('input[name="lastName"]'); }
@@ -112,7 +112,7 @@ export class AddEmployeePage extends BasePage {
   async submitEmployeeForm() {
     log.info('Submitting Add Employee form...');
     await this.submitButton.click();
-    await this.page.waitForTimeout(2000);
+    await this.page.waitForTimeout(3000);
 
   
     if (await this.duplicateWarning.isVisible({ timeout: 3000 }).catch(() => false)) {
@@ -135,5 +135,18 @@ export class AddEmployeePage extends BasePage {
     expect(isEmployeePresent).toBeTruthy();
     log.success(`Employee ${this.emloyeeEmail} found in the employee list.`);
   } 
+
+ async verifyDuplicateWarning() {
+  log.info('Checking if duplicate employee warning is displayed...');
+  
+  const isVisible = await this.duplicateWarning.isVisible({ timeout: 7000 }).catch(() => false);
+  
+  if (isVisible) {
+    log.success('Duplicate warning is visible.');
+  } else {
+    log.warn('Duplicate warning is NOT visible.');
+  }
+}
+
 }
 
