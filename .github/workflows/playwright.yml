@@ -24,7 +24,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Playwright tests in headless mode
-        run: npx playwright test --headed=false
+        run: npx playwright test --headless
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
@@ -32,3 +32,19 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+
+      # Google Chat notification on failure
+      - name: Notify Google Chat on failure
+        if: failure()
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"text":"❌ Playwright tests failed on branch '${GITHUB_REF_NAME}'!\nCheck artifacts for details."}' \
+          "https://chat.googleapis.com/v1/spaces/AAQA-Bagcl4/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=fYwLFODz13YMvb2jiEZRnsxF-mOCwlzgkystoHFwxCc"
+
+      # Google Chat notification on success
+      - name: Notify Google Chat on success
+        if: success()
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"text":"✅ Playwright tests passed on branch '${GITHUB_REF_NAME}'!"}' \
+          "https://chat.googleapis.com/v1/spaces/AAQA-Bagcl4/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=fYwLFODz13YMvb2jiEZRnsxF-mOCwlzgkystoHFwxCc"
