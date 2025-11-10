@@ -6,6 +6,10 @@ on:
   pull_request:
     branches: [ main, master ]
 
+# Set browsers here; can be "chromium", "firefox", "webkit", or comma-separated
+env:
+  BROWSERS: chromium
+
 jobs:
   test:
     timeout-minutes: 60
@@ -17,14 +21,22 @@ jobs:
         with:
           node-version: lts/*
 
+      - name: Cache Playwright browsers
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-browsers-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            playwright-browsers-${{ runner.os }}-
+
       - name: Install dependencies
         run: npm ci
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install $BROWSERS
 
-      - name: Run Playwright tests in headless mode
-        run: npx playwright test --headless
+      - name: Run Playwright tests
+        run: npx playwright test --project=$BROWSERS
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
