@@ -15,20 +15,20 @@ export class BasePage {
 
   async init() {
     const browserType = ConfigReader.getBrowser();
-    const headless = ConfigReader.getHeadless();
+    //const headless = ConfigReader.getHeadless();
     const baseURL = ConfigReader.getBaseURL();
 
-    log.info(`Initializing browser: ${browserType}, headless: ${headless}`);
+    log.info(`Initializing browser: ${browserType}`);
 
     switch (browserType) {
       case 'firefox':
-        this.browser = await firefox.launch({ headless });
+        this.browser = await firefox.launch();
         break;
       case 'webkit':
-        this.browser = await webkit.launch({ headless });
+        this.browser = await webkit.launch();
         break;
       default:
-        this.browser = await chromium.launch({ headless });
+        this.browser = await chromium.launch();
     }
 
     this.context = await this.browser.newContext();

@@ -12,7 +12,7 @@ export default defineConfig({
 
   use: {
     baseURL: process.env.BASE_URL || 'https://dev.urbuddi.com/',
-    headless: !!process.env.CI, // ✅ Headless only on CI
+    headless: process.env.CI ? true : false,  
     trace: 'retain-on-failure',
     video: 'retain-on-failure',
     screenshot: 'only-on-failure',
