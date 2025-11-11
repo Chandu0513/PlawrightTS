@@ -715,3 +715,336 @@
 [18:51:49] success: Employee davon.schmeler@test.com found in the employee list.
 [18:51:50] info: Tearing down browser session...
 [18:51:50] success: Browser session closed successfully.
+[15:22:58] info: Initializing browser: chromium, headless: true
+[15:22:58] info: Initializing browser: chromium, headless: true
+[15:22:59] info: Initializing browser: chromium, headless: true
+[15:22:59] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:22:59] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:22:59] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:23:03] info: Starting Admin Login flow
+[15:23:03] step: Filling email: testUserAdmin07112025@gmail.com
+[15:23:03] step: Filling password
+[15:23:03] info: Starting Admin Login flow
+[15:23:03] step: Filling email: testUserAdmin07112025@gmail.com
+[15:23:03] info: Starting Admin Login flow
+[15:23:03] step: Filling password
+[15:23:03] step: Filling email: testUserAdmin07112025@gmail.com
+[15:23:04] step: Filling password
+[15:23:05] success: Admin login completed successfully!
+[15:23:05] info: Applying for leave
+[15:23:05] success: Admin login completed successfully!
+[15:23:05] info: Opening Add Employee modal...
+[15:23:05] success: Admin login completed successfully!
+[15:23:05] info: Tearing down browser session...
+[15:23:06] success: Browser session closed successfully.
+[15:23:06] info: Initializing browser: chromium, headless: true
+[15:23:07] info: Filling Add Employee form...
+[15:23:07] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:23:08] info: Starting Employee Login flow
+[15:23:08] step: Filling email: testemp07112025@gmail.com
+[15:23:08] success: Employee form filled successfully for Jerrold Kautzer (ID: EMP2227)
+[15:23:08] info: Submitting Add Employee form...
+[15:23:08] step: Filling password
+[15:23:09] success: Employee login completed successfully!
+[15:23:09] info: Tearing down browser session...
+[15:23:09] success: Browser session closed successfully.
+[15:23:11] success: Add Employee modal closed after submission.
+[15:23:11] info: Checking if duplicate employee warning is displayed...
+[15:23:11] warn: Duplicate warning is NOT visible.
+[15:23:11] info: Verifying if employee EMP2227 exists in the list...
+[15:23:13] info: Tearing down browser session...
+[15:23:13] success: Browser session closed successfully.
+[15:23:59] info: Tearing down browser session...
+[15:23:59] success: Browser session closed successfully.
+[16:08:27] info: Initializing browser: chromium, headless: false
+[16:08:27] info: Initializing browser: chromium, headless: false
+[16:08:28] info: Initializing browser: chromium, headless: false
+[16:08:29] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:08:29] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:08:30] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:08:30] info: Starting Admin Login flow
+[16:08:30] step: Filling email: testUserAdmin07112025@gmail.com
+[16:08:31] step: Filling password
+[16:08:31] info: Starting Admin Login flow
+[16:08:31] step: Filling email: testUserAdmin07112025@gmail.com
+[16:08:31] step: Filling password
+[16:08:32] success: Admin login completed successfully!
+[16:08:32] info: Starting Admin Login flow
+[16:08:32] step: Filling email: testUserAdmin07112025@gmail.com
+[16:08:32] step: Filling password
+[16:08:32] success: Admin login completed successfully!
+[16:08:32] info: Applying for leave
+[16:08:32] info: Tearing down browser session...
+[16:08:33] success: Browser session closed successfully.
+[16:08:33] info: Initializing browser: chromium, headless: false
+[16:08:33] success: Admin login completed successfully!
+[16:08:33] info: Opening Add Employee modal...
+[16:08:35] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:08:36] info: Filling Add Employee form...
+[16:08:36] info: Starting Employee Login flow
+[16:08:37] step: Filling email: testemp07112025@gmail.com
+[16:08:37] step: Filling password
+[16:08:38] success: Employee login completed successfully!
+[16:08:38] success: Employee form filled successfully for Ferne Okuneva (ID: EMP2291)
+[16:08:38] info: Submitting Add Employee form...
+[16:08:39] info: Tearing down browser session...
+[16:08:40] success: Browser session closed successfully.
+[16:08:42] success: Add Employee modal closed after submission.
+[16:08:42] info: Checking if duplicate employee warning is displayed...
+[16:08:42] warn: Duplicate warning is NOT visible.
+[16:08:42] info: Verifying if employee EMP2291 exists in the list...
+[16:08:43] success: Employee ferne.okuneva@test.com found in the employee list.
+[16:08:43] info: Tearing down browser session...
+[16:08:44] success: Browser session closed successfully.
+[16:09:00] info: Tearing down browser session...
+[16:09:01] success: Browser session closed successfully.
+[16:10:08] info: Initializing browser: chromium, headless: false
+[16:10:08] info: Initializing browser: chromium, headless: false
+[16:10:09] info: Initializing browser: chromium, headless: false
+[16:10:10] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:10] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:11] info: Starting Admin Login flow
+[16:10:11] step: Filling email: testUserAdmin07112025@gmail.com
+[16:10:11] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:12] step: Filling password
+[16:10:12] info: Starting Admin Login flow
+[16:10:12] step: Filling email: testUserAdmin07112025@gmail.com
+[16:10:13] step: Filling password
+[16:10:13] success: Admin login completed successfully!
+[16:10:13] info: Applying for leave
+[16:10:13] info: Starting Admin Login flow
+[16:10:13] step: Filling email: testUserAdmin07112025@gmail.com
+[16:10:13] step: Filling password
+[16:10:14] success: Admin login completed successfully!
+[16:10:14] info: Tearing down browser session...
+[16:10:15] success: Admin login completed successfully!
+[16:10:15] info: Opening Add Employee modal...
+[16:10:16] success: Browser session closed successfully.
+[16:10:16] info: Initializing browser: chromium, headless: false
+[16:10:17] info: Filling Add Employee form...
+[16:10:17] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:19] info: Starting Employee Login flow
+[16:10:19] step: Filling email: testemp07112025@gmail.com
+[16:10:19] step: Filling password
+[16:10:20] success: Employee form filled successfully for Fausto Herman (ID: EMP8842)
+[16:10:20] info: Submitting Add Employee form...
+[16:10:20] success: Employee login completed successfully!
+[16:10:21] info: Tearing down browser session...
+[16:10:22] success: Browser session closed successfully.
+[16:10:23] success: Add Employee modal closed after submission.
+[16:10:23] info: Checking if duplicate employee warning is displayed...
+[16:10:23] warn: Duplicate warning is NOT visible.
+[16:10:23] info: Verifying if employee EMP8842 exists in the list...
+[16:10:25] success: Employee fausto.herman@test.com found in the employee list.
+[16:10:25] info: Tearing down browser session...
+[16:10:25] success: Browser session closed successfully.
+[16:10:45] info: Tearing down browser session...
+[16:10:45] success: Browser session closed successfully.
+[16:12:04] info: Initializing browser: chromium, headless: false
+[16:12:04] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:12:05] info: Starting Admin Login flow
+[16:12:05] step: Filling email: testUserAdmin07112025@gmail.com
+[16:12:05] step: Filling password
+[16:12:07] success: Admin login completed successfully!
+[16:12:07] info: Applying for leave
+[16:13:04] info: Tearing down browser session...
+[16:13:05] success: Browser session closed successfully.
+[16:15:21] info: Initializing browser: chromium, headless: false
+[16:15:21] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:15:22] info: Starting Admin Login flow
+[16:15:22] step: Filling email: testUserAdmin07112025@gmail.com
+[16:15:23] step: Filling password
+[16:15:24] success: Admin login completed successfully!
+[16:15:24] info: Applying for leave
+[16:15:52] info: Leave application submitted
+[16:15:52] info: Tearing down browser session...
+[16:15:52] success: Browser session closed successfully.
+[17:29:53] info: Initializing browser: chromium, headless: false
+[17:29:54] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:29:55] info: Starting Admin Login flow
+[17:29:55] step: Filling email: testUserAdmin07112025@gmail.com
+[17:29:56] step: Filling password
+[17:29:57] success: Admin login completed successfully!
+[17:29:57] info: Applying for leave
+[17:30:05] info: Tearing down browser session...
+[17:30:05] success: Browser session closed successfully.
+[17:31:10] info: Initializing browser: chromium, headless: false
+[17:31:11] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:31:12] info: Starting Admin Login flow
+[17:31:12] step: Filling email: testUserAdmin07112025@gmail.com
+[17:31:13] step: Filling password
+[17:31:14] success: Admin login completed successfully!
+[17:31:14] info: Applying for leave
+[17:31:27] info: Tearing down browser session...
+[17:31:27] success: Browser session closed successfully.
+[17:33:28] info: Initializing browser: chromium, headless: false
+[17:33:29] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:33:30] info: Starting Admin Login flow
+[17:33:30] step: Filling email: testUserAdmin07112025@gmail.com
+[17:33:30] step: Filling password
+[17:33:31] success: Admin login completed successfully!
+[17:33:31] info: Applying for leave
+[17:33:48] info: Tearing down browser session...
+[17:33:49] success: Browser session closed successfully.
+[17:36:03] info: Initializing browser: chromium, headless: false
+[17:36:04] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:36:05] info: Starting Admin Login flow
+[17:36:05] step: Filling email: testUserAdmin07112025@gmail.com
+[17:36:05] step: Filling password
+[17:36:06] success: Admin login completed successfully!
+[17:36:06] info: Applying for leave...
+[17:36:06] info: Applying for date: 05/11/2025
+[17:36:08] info: Tearing down browser session...
+[17:36:08] success: Browser session closed successfully.
+[17:39:47] info: Initializing browser: chromium, headless: false
+[17:39:48] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:39:49] info: Starting Admin Login flow
+[17:39:49] step: Filling email: testUserAdmin07112025@gmail.com
+[17:39:49] step: Filling password
+[17:39:50] success: Admin login completed successfully!
+[17:39:50] info: Applying for leave...
+[17:39:50] info: Applying for date: 2025-12-10
+[17:39:52] info: Leave application submitted successfully.
+[17:39:52] info: Tearing down browser session...
+[17:39:52] success: Browser session closed successfully.
+[18:01:15] info: Initializing browser: chromium, headless: false
+[18:01:16] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:01:17] info: Starting Admin Login flow
+[18:01:17] step: Filling email: testUserAdmin07112025@gmail.com
+[18:01:18] step: Filling password
+[18:01:19] success: Admin login completed successfully!
+[18:01:19] info: Opening Add Employee modal...
+[18:01:20] info: Filling Add Employee form...
+[18:01:21] success: Employee form filled successfully for Roberta Connelly (ID: EMP8481)
+[18:01:21] info: Submitting Add Employee form...
+[18:01:25] success: Add Employee modal closed after submission.
+[18:01:25] info: Checking if duplicate employee warning is displayed...
+[18:01:25] warn: Duplicate warning is NOT visible.
+[18:01:25] info: Verifying if employee EMP8481 exists in the list...
+[18:01:26] success: Employee roberta.connelly@test.com found in the employee list.
+[18:01:26] info: Checking and deleting employee roberta.connelly@test.com if exists...
+[18:02:16] info: Tearing down browser session...
+[18:02:17] success: Browser session closed successfully.
+[18:07:47] info: Initializing browser: chromium, headless: false
+[18:07:48] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:07:49] info: Starting Admin Login flow
+[18:07:49] step: Filling email: testUserAdmin07112025@gmail.com
+[18:07:49] step: Filling password
+[18:07:51] success: Admin login completed successfully!
+[18:07:51] info: Opening Add Employee modal...
+[18:07:52] info: Filling Add Employee form...
+[18:07:53] success: Employee form filled successfully for Leila Stehr (ID: EMP5132)
+[18:07:53] info: Submitting Add Employee form...
+[18:07:54] info: Tearing down browser session...
+[18:07:55] success: Browser session closed successfully.
+[18:08:18] info: Initializing browser: chromium, headless: false
+[18:08:18] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:08:19] info: Starting Admin Login flow
+[18:08:19] step: Filling email: testUserAdmin07112025@gmail.com
+[18:08:20] step: Filling password
+[18:08:21] success: Admin login completed successfully!
+[18:08:21] info: Opening Add Employee modal...
+[18:08:22] info: Filling Add Employee form...
+[18:08:23] success: Employee form filled successfully for Tomasa Brekke (ID: EMP4236)
+[18:08:23] info: Submitting Add Employee form...
+[18:08:26] success: Add Employee modal closed after submission.
+[18:08:26] info: Checking if duplicate employee warning is displayed...
+[18:08:27] warn: Duplicate warning is NOT visible.
+[18:08:27] info: Verifying if employee EMP4236 exists in the list...
+[18:08:28] success: Employee tomasa.brekke@test.com found in the employee list.
+[18:08:28] info: Checking and deleting employee tomasa.brekke@test.com if exists...
+[18:09:19] info: Tearing down browser session...
+[18:09:20] success: Browser session closed successfully.
+[18:10:53] info: Initializing browser: chromium, headless: false
+[18:10:54] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:10:55] info: Starting Admin Login flow
+[18:10:55] step: Filling email: testUserAdmin07112025@gmail.com
+[18:10:55] step: Filling password
+[18:10:56] success: Admin login completed successfully!
+[18:10:56] info: Opening Add Employee modal...
+[18:10:57] info: Filling Add Employee form...
+[18:10:58] success: Employee form filled successfully for Maximillian Schowalter (ID: EMP9044)
+[18:10:58] info: Submitting Add Employee form...
+[18:11:02] success: Add Employee modal closed after submission.
+[18:11:02] info: Checking if duplicate employee warning is displayed...
+[18:11:02] warn: Duplicate warning is NOT visible.
+[18:11:02] info: Verifying if employee EMP9044 exists in the list...
+[18:11:03] success: Employee maximillian.schowalter@test.com found in the employee list.
+[18:11:03] info: Checking and deleting employee maximillian.schowalter@test.com if exists...
+[18:11:05] warn: ⚠️ No checkbox found for maximillian.schowalter@test.com
+[18:11:05] info: Tearing down browser session...
+[18:11:05] success: Browser session closed successfully.
+[18:15:27] info: Initializing browser: chromium, headless: false
+[18:15:27] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:15:28] info: Starting Admin Login flow
+[18:15:28] step: Filling email: testUserAdmin07112025@gmail.com
+[18:15:29] step: Filling password
+[18:15:30] success: Admin login completed successfully!
+[18:15:30] info: Opening Add Employee modal...
+[18:15:31] info: Filling Add Employee form...
+[18:15:32] success: Employee form filled successfully for Bernita Stroman (ID: EMP4803)
+[18:15:32] info: Submitting Add Employee form...
+[18:15:36] success: Add Employee modal closed after submission.
+[18:15:36] info: Checking if duplicate employee warning is displayed...
+[18:15:36] warn: Duplicate warning is NOT visible.
+[18:15:36] info: Verifying if employee EMP4803 exists in the list...
+[18:15:37] success: Employee bernita.stroman@test.com found in the employee list.
+[18:15:37] info: Checking and deleting employee bernita.stroman@test.com if exists...
+[18:15:39] info: Tearing down browser session...
+[18:15:39] success: Browser session closed successfully.
+[18:15:59] info: Initializing browser: chromium, headless: false
+[18:15:59] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:16:00] info: Starting Admin Login flow
+[18:16:00] step: Filling email: testUserAdmin07112025@gmail.com
+[18:16:01] step: Filling password
+[18:16:02] success: Admin login completed successfully!
+[18:16:02] info: Opening Add Employee modal...
+[18:16:03] info: Filling Add Employee form...
+[18:16:04] success: Employee form filled successfully for Hobart Jakubowski (ID: EMP5176)
+[18:16:04] info: Submitting Add Employee form...
+[18:16:07] success: Add Employee modal closed after submission.
+[18:16:07] info: Checking if duplicate employee warning is displayed...
+[18:16:08] warn: Duplicate warning is NOT visible.
+[18:16:08] info: Verifying if employee EMP5176 exists in the list...
+[18:16:09] success: Employee hobart.jakubowski@test.com found in the employee list.
+[18:16:09] info: Checking and deleting employee hobart.jakubowski@test.com if exists...
+[18:16:11] info: Tearing down browser session...
+[18:16:11] success: Browser session closed successfully.
+[18:19:30] info: Initializing browser: chromium, headless: false
+[18:19:31] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:19:32] info: Starting Admin Login flow
+[18:19:32] step: Filling email: testUserAdmin07112025@gmail.com
+[18:19:32] step: Filling password
+[18:19:34] success: Admin login completed successfully!
+[18:19:34] info: Opening Add Employee modal...
+[18:19:35] info: Filling Add Employee form...
+[18:19:36] success: Employee form filled successfully for Austen Huel (ID: EMP1285)
+[18:19:36] info: Submitting Add Employee form...
+[18:19:39] success: Add Employee modal closed after submission.
+[18:19:39] info: Checking if duplicate employee warning is displayed...
+[18:19:39] warn: Duplicate warning is NOT visible.
+[18:19:40] info: Verifying if employee EMP1285 exists in the list...
+[18:19:41] success: Employee austen.huel@test.com found in the employee list.
+[18:19:41] info: Checking and deleting employee austen.huel@test.com if exists...
+[18:19:41] success: Employee austen.huel@test.com deleted if existed.
+[18:19:41] info: Tearing down browser session...
+[18:19:42] success: Browser session closed successfully.
+[18:21:13] info: Initializing browser: chromium, headless: false
+[18:21:14] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:21:15] info: Starting Admin Login flow
+[18:21:15] step: Filling email: testUserAdmin07112025@gmail.com
+[18:21:15] step: Filling password
+[18:21:16] success: Admin login completed successfully!
+[18:21:16] info: Opening Add Employee modal...
+[18:21:17] info: Filling Add Employee form...
+[18:21:18] success: Employee form filled successfully for Kenna Williamson (ID: EMP6209)
+[18:21:18] info: Submitting Add Employee form...
+[18:21:21] success: Add Employee modal closed after submission.
+[18:21:21] info: Checking if duplicate employee warning is displayed...
+[18:21:21] warn: Duplicate warning is NOT visible.
+[18:21:21] info: Verifying if employee EMP6209 exists in the list...
+[18:21:23] success: Employee kenna.williamson@test.com found in the employee list.
+[18:21:23] info: Checking and deleting employee kenna.williamson@test.com if exists...
+[18:21:23] success: Employee kenna.williamson@test.com deleted if existed.
+[18:21:25] info: Tearing down browser session...
+[18:21:26] success: Browser session closed successfully.

@@ -6,7 +6,6 @@ on:
   pull_request:
     branches: [ main, master ]
 
-# Set browsers here; can be "chromium", "firefox", "webkit", or comma-separated
 env:
   BROWSERS: chromium
 
@@ -14,6 +13,7 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -36,27 +36,49 @@ jobs:
         run: npx playwright install $BROWSERS
 
       - name: Run Playwright tests
-        run: npx playwright test --project=$BROWSERS
+        run: |
+          npx playwright test --project=$BROWSERS --reporter=line,html
 
-      - uses: actions/upload-artifact@v4
-        if: ${{ !cancelled() }}
+      # Compress the report folder before uploading
+      - name: Zip Playwright Report
+        if: always()
+        run: |
+          mkdir -p artifacts
+          zip -r artifacts/playwright-report.zip playwright-report || echo "No report directory found"
+
+      - name: Upload Playwright Report Artifact
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-report
-          path: playwright-report/
-          retention-days: 30
+          path: artifacts/playwright-report.zip
+          retention-days: 10
 
-      # Google Chat notification on failure
+      # Optionally upload screenshots & videos
+      - name: Upload Test Artifacts (screenshots/videos)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-artifacts
+          path: |
+            test-results/
+            playwright-report/
+          retention-days: 15
+
+            # Google Chat notification on failure
       - name: Notify Google Chat on failure
         if: failure()
         run: |
+          REPORT_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           curl -X POST -H "Content-Type: application/json" \
-          -d '{"text":"❌ Playwright tests failed on branch '${GITHUB_REF_NAME}'!\nCheck artifacts for details."}' \
+          -d '{"text":"❌ Playwright tests failed on branch *'${GITHUB_REF_NAME}'*!\nView detailed report and logs here:\n'${REPORT_URL}'"}' \
           "https://chat.googleapis.com/v1/spaces/AAQA-Bagcl4/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=fYwLFODz13YMvb2jiEZRnsxF-mOCwlzgkystoHFwxCc"
 
       # Google Chat notification on success
       - name: Notify Google Chat on success
         if: success()
         run: |
+          REPORT_URL="https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"
           curl -X POST -H "Content-Type: application/json" \
-          -d '{"text":"✅ Playwright tests passed on branch '${GITHUB_REF_NAME}'!"}' \
+          -d '{"text":"✅ Playwright tests passed successfully on branch *'${GITHUB_REF_NAME}'*! 🎉\nCheck the report here:\n'${REPORT_URL}'"}' \
           "https://chat.googleapis.com/v1/spaces/AAQA-Bagcl4/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=fYwLFODz13YMvb2jiEZRnsxF-mOCwlzgkystoHFwxCc"

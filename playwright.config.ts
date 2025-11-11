@@ -11,8 +11,8 @@ export default defineConfig({
   timeout: 60000,
 
   use: {
-    baseURL: process.env.BASE_URL || 'https://qa.payroll-app.com',
-    headless: true,
+    baseURL: process.env.BASE_URL || 'https://dev.urbuddi.com/',
+    headless: !!process.env.CI, // ✅ Headless only on CI
     trace: 'retain-on-failure',
     video: 'retain-on-failure',
     screenshot: 'only-on-failure',
@@ -21,8 +21,8 @@ export default defineConfig({
   /* Reporters */
   reporter: [
     ['list'],
-    ['html', { outputFolder: 'reports/html-report', open: 'always' }],
-    ['allure-playwright']
+    ['html', { outputFolder: 'reports/html-report', open: process.env.CI ? 'never' : 'always' }], // ✅ avoid auto-open in CI
+    ['allure-playwright'],
   ],
 
   /* Browsers */

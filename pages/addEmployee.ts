@@ -2,6 +2,7 @@ import { BasePage } from './basePage';
 import { log } from '../utils/logger';
 import { faker } from '@faker-js/faker';
 import { expect } from '@playwright/test';
+import { selectUserCheckboxByName } from '../utils/helpers';  
 
 export class AddEmployeePage extends BasePage {
   private firstName: string;
@@ -67,11 +68,11 @@ export class AddEmployeePage extends BasePage {
   private get salaryInput() { return this.page.locator('#salary'); }
   private get locationInput() { return this.page.locator('input[name="location"]'); }
   private get reportingToSelect() { return this.page.locator('#reportingTo'); }
-
+ private get checkbox() { return this.page.locator('input[id^="ag-"][type="checkbox"]');}
   private get certificateDropdownBtn() { return this.page.locator('button.dropdown-btn'); }
   private get certificate10th() { return this.page.locator('input[name="10th"]'); }
   private get certificateDegree() { return this.page.locator('input[name="Degree"]'); }
-
+  private get deleteicon (){return this. page.locator('.deleteEmployeesContainer .deleteIcon');}
   async openAddEmployeeModal() {
     log.info('Opening Add Employee modal...');
     await this.employees.click();
@@ -116,7 +117,7 @@ export class AddEmployeePage extends BasePage {
 
   
     if (await this.duplicateWarning.isVisible({ timeout: 3000 }).catch(() => false)) {
-      log.warn(`⚠️ Duplicate detected for Employee ID: ${this.employeeId} or Email: ${this.emloyeeEmail}`);
+      log.warn(` Duplicate detected for Employee ID: ${this.employeeId} or Email: ${this.emloyeeEmail}`);
       return;
     }
 
@@ -148,5 +149,15 @@ export class AddEmployeePage extends BasePage {
   }
 }
 
+async DeleteEmployeeIfExists() {
+  log.info(`Checking and deleting employee ${this.emloyeeEmail} if exists...`);
+   await this.page.evaluate(() => {
+  const cb = document.querySelector('.ag-row:first-child input[type="checkbox"]') as HTMLInputElement;
+  if (cb) cb.click();
+});
+await this.deleteicon.click();
+  log.success(`Employee ${this.emloyeeEmail} deleted if existed.`);
+  
 }
 
+}

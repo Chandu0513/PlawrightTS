@@ -1,0 +1,9 @@
+[17:33:28] info: Initializing browser: chromium, headless: false
+[17:33:29] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:33:30] info: Starting Admin Login flow
+[17:33:30] step: Filling email: testUserAdmin07112025@gmail.com
+[17:33:30] step: Filling password
+[17:33:31] success: Admin login completed successfully!
+[17:33:31] info: Applying for leave
+[17:33:48] info: Tearing down browser session...
+[17:33:49] success: Browser session closed successfully.

@@ -26,6 +26,7 @@ test.describe('Employee Management Tests', () => {
     await addemployee.verifyDuplicateWarning();
     await basePage.page.waitForLoadState('networkidle');
     await addemployee.verifyEmployeeCreated();
+    await addemployee.DeleteEmployeeIfExists();
       });
 
   test.afterAll(async () => {
