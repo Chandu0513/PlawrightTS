@@ -1,6 +1,6 @@
 import { BasePage } from './basePage';
 import { log } from '../utils/logger';
-import { getValidLeaveDate } from '../utils/helpers';  
+import { getValidLeaveDates } from '../utils/helpers';  
 import { expect } from '@playwright/test';
 
 export class ApplyLeave extends BasePage {
@@ -45,15 +45,15 @@ export class ApplyLeave extends BasePage {
     log.info('Applying for leave...');
 
     const today = new Date();
-    const validDateStr  = getValidLeaveDate(today); 
+    const { fromDate, toDate } = getValidLeaveDates(today); 
     
 
-    log.info(`Applying for date: ${validDateStr }`);
+    log.info(`Applying from: ${fromDate} to: ${toDate}`);
 
     await this.leavemanagment.click();
     await this.applyLeaveButton.click();
-    await this.fromDateInput.fill(validDateStr );
-    await this.toDateInput.fill(validDateStr );
+    await this.fromDateInput.fill(fromDate );
+    await this.toDateInput.fill(toDate );
     await this.subjectInput.fill('Family Function');
     await this.reasonTextarea.fill('Attending a family wedding.');
     await this.leaveRadio.check();

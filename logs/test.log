@@ -1105,3 +1105,111 @@
 [18:35:31] success: Employee louvenia.russel@test.com deleted if existed.
 [18:35:31] info: Tearing down browser session...
 [18:35:31] success: Browser session closed successfully.
+[12:15:24] info: Initializing browser: chromium
+[12:15:25] info: Navigating to base URL: https://dev.urbuddi.com/
+[12:15:26] info: Starting Admin Login flow
+[12:15:26] step: Filling email: testUserAdmin07112025@gmail.com
+[12:15:26] step: Filling password
+[12:15:28] success: Admin login completed successfully!
+[12:15:28] info: Applying for leave...
+[12:15:28] info: Applying for date: 2025-11-10
+[12:15:40] info: Leave application submitted successfully.
+[12:15:41] info: Tearing down browser session...
+[12:15:44] success: Browser session closed successfully.
+[12:19:33] info: Initializing browser: chromium
+[12:19:34] info: Navigating to base URL: https://dev.urbuddi.com/
+[12:19:35] info: Starting Admin Login flow
+[12:19:35] step: Filling email: testUserAdmin07112025@gmail.com
+[12:19:35] step: Filling password
+[12:19:37] success: Admin login completed successfully!
+[12:19:37] info: Applying for leave...
+[12:19:37] info: Applying from: 2025-11-05 to: 2025-11-06
+[12:19:38] info: Leave application submitted successfully.
+[12:19:38] info: Tearing down browser session...
+[12:19:38] success: Browser session closed successfully.
+[12:59:02] info: Initializing browser: chromium
+[12:59:03] info: Navigating to base URL: https://dev.urbuddi.com/
+[12:59:05] info: Starting Admin Login flow
+[12:59:05] step: Filling email: testUserAdmin07112025@gmail.com
+[12:59:05] step: Filling password
+[12:59:06] success: Admin login completed successfully!
+[12:59:08] info: Tearing down browser session...
+[12:59:08] success: Browser session closed successfully.
+[13:01:19] info: Initializing browser: chromium
+[13:01:20] info: Navigating to base URL: https://dev.urbuddi.com/
+[13:01:21] info: Starting Admin Login flow
+[13:01:21] step: Filling email: testUserAdmin07112025@gmail.com
+[13:01:22] step: Filling password
+[13:01:23] success: Admin login completed successfully!
+[13:01:25] info: Tearing down browser session...
+[13:01:25] success: Browser session closed successfully.
+[13:01:36] info: Initializing browser: chromium
+[13:01:36] info: Navigating to base URL: https://dev.urbuddi.com/
+[13:01:38] info: Starting Admin Login flow
+[13:01:38] step: Filling email: testUserAdmin07112025@gmail.com
+[13:01:38] step: Filling password
+[13:01:39] success: Admin login completed successfully!
+[13:01:41] info: Tearing down browser session...
+[13:01:41] success: Browser session closed successfully.
+[13:01:59] info: Initializing browser: chromium
+[13:02:00] info: Navigating to base URL: https://dev.urbuddi.com/
+[13:02:01] info: Starting Admin Login flow
+[13:02:01] step: Filling email: testUserAdmin07112025@gmail.com
+[13:02:01] step: Filling password
+[13:02:02] success: Admin login completed successfully!
+[13:02:04] info: Tearing down browser session...
+[13:02:04] success: Browser session closed successfully.
+[16:10:14] info: Initializing browser: chromium
+[16:10:14] info: Initializing browser: chromium
+[16:10:14] info: Initializing browser: chromium
+[16:10:15] info: Initializing browser: chromium
+[16:10:17] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:17] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:18] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:19] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:21] info: Starting Admin Login flow
+[16:10:21] step: Filling email: testUserAdmin07112025@gmail.com
+[16:10:22] step: Filling password
+[16:10:22] info: Starting Admin Login flow
+[16:10:22] step: Filling email: testUserAdmin07112025@gmail.com
+[16:10:22] info: Starting Admin Login flow
+[16:10:22] step: Filling email: testUserAdmin07112025@gmail.com
+[16:10:22] step: Filling password
+[16:10:22] step: Filling password
+[16:10:24] info: Starting Admin Login flow
+[16:10:24] success: Admin login completed successfully!
+[16:10:24] info: Applying for leave...
+[16:10:24] info: Applying from: 2025-12-09 to: 2025-12-10
+[16:10:24] step: Filling email: testUserAdmin07112025@gmail.com
+[16:10:24] success: Admin login completed successfully!
+[16:10:24] info: Opening Add Employee modal...
+[16:10:24] step: Filling password
+[16:10:25] success: Admin login completed successfully!
+[16:10:25] success: Admin login completed successfully!
+[16:10:26] info: Tearing down browser session...
+[16:10:28] info: Leave application submitted successfully.
+[16:10:28] info: Filling Add Employee form...
+[16:10:28] info: Tearing down browser session...
+[16:10:29] info: Tearing down browser session...
+[16:10:29] success: Browser session closed successfully.
+[16:10:30] success: Browser session closed successfully.
+[16:10:30] info: Initializing browser: chromium
+[16:10:30] success: Browser session closed successfully.
+[16:10:30] success: Employee form filled successfully for Benedict Wuckert (ID: EMP6323)
+[16:10:30] info: Submitting Add Employee form...
+[16:10:33] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:10:34] success: Add Employee modal closed after submission.
+[16:10:34] info: Checking if duplicate employee warning is displayed...
+[16:10:34] warn: Duplicate warning is NOT visible.
+[16:10:34] info: Verifying if employee EMP6323 exists in the list...
+[16:10:35] info: Starting Employee Login flow
+[16:10:35] step: Filling email: testemp07112025@gmail.com
+[16:10:35] step: Filling password
+[16:10:36] success: Employee benedict.wuckert@test.com found in the employee list.
+[16:10:36] info: Checking and deleting employee benedict.wuckert@test.com if exists...
+[16:10:36] success: Employee benedict.wuckert@test.com deleted if existed.
+[16:10:36] info: Tearing down browser session...
+[16:10:37] success: Browser session closed successfully.
+[16:10:38] success: Employee login completed successfully!
+[16:10:38] info: Tearing down browser session...
+[16:10:39] success: Browser session closed successfully.

@@ -1,0 +1,10 @@
+[12:59:02] info: Initializing browser: chromium
+[12:59:03] info: Navigating to base URL: https://dev.urbuddi.com/
+🌱 Seeding app structure for AI agents...
+[12:59:05] info: Starting Admin Login flow
+[12:59:05] step: Filling email: testUserAdmin07112025@gmail.com
+[12:59:05] step: Filling password
+[12:59:06] success: Admin login completed successfully!
+✅ Seed complete — AI agents can now explore this page.
+[12:59:08] info: Tearing down browser session...
+[12:59:08] success: Browser session closed successfully.
