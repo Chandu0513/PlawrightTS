@@ -1,0 +1,193 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e4]:
+    - link "logo" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img "logo" [ref=e6]
+    - generic [ref=e7]:
+      - button "3" [ref=e8] [cursor=pointer]:
+        - img [ref=e10]
+        - paragraph [ref=e12]: "3"
+      - button "profile-pic" [ref=e13] [cursor=pointer]:
+        - link "profile-pic" [ref=e14]:
+          - /url: /profile
+          - img "profile-pic" [ref=e15]
+  - generic [ref=e16]:
+    - navigation [ref=e18]:
+      - list [ref=e19]:
+        - listitem [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+        - link "Dashboard" [ref=e23] [cursor=pointer]:
+          - /url: /
+          - listitem [ref=e24]:
+            - img [ref=e26]
+            - paragraph [ref=e29]: Dashboard
+        - link "Employees" [ref=e30] [cursor=pointer]:
+          - /url: /allemployees
+          - listitem [ref=e31]:
+            - img [ref=e33]
+            - paragraph [ref=e36]: Employees
+        - link "Leave Management" [ref=e37] [cursor=pointer]:
+          - /url: /leave_management
+          - listitem [ref=e38]:
+            - img [ref=e40]
+            - paragraph [ref=e42]: Leave Management
+        - link "Salary Management" [ref=e43] [cursor=pointer]:
+          - /url: /salary
+          - listitem [ref=e44]:
+            - img [ref=e46]
+            - paragraph [ref=e48]: Salary Management
+        - link "Payslip" [ref=e49] [cursor=pointer]:
+          - /url: /payslip/OW6969
+          - listitem [ref=e50]:
+            - img [ref=e52]
+            - paragraph [ref=e54]: Payslip
+        - link "Resource Tracking" [ref=e55] [cursor=pointer]:
+          - /url: /resource_tracking
+          - listitem [ref=e56]:
+            - img [ref=e58]
+            - paragraph [ref=e61]: Resource Tracking
+        - link "Reimbursement" [ref=e62] [cursor=pointer]:
+          - /url: /reimbursement
+          - listitem [ref=e63]:
+            - img [ref=e65]
+            - paragraph [ref=e67]: Reimbursement
+        - link "Expenditure" [ref=e68] [cursor=pointer]:
+          - /url: /expenditure
+          - listitem [ref=e69]:
+            - img [ref=e71]
+            - paragraph [ref=e73]: Expenditure
+        - link "Policies" [ref=e74] [cursor=pointer]:
+          - /url: /policies
+          - listitem [ref=e75]:
+            - img [ref=e77]
+            - paragraph [ref=e79]: Policies
+      - separator [ref=e80]
+      - list [ref=e81]:
+        - link "Your Profile" [ref=e82] [cursor=pointer]:
+          - /url: /profile
+          - listitem [ref=e83]:
+            - img [ref=e85]
+            - paragraph [ref=e88]: Your Profile
+        - link "Leave Overview" [ref=e89] [cursor=pointer]:
+          - /url: /LeavesOverview
+          - listitem [ref=e90]:
+            - img [ref=e92]
+            - paragraph [ref=e94]: Leave Overview
+        - link "Settings" [ref=e95] [cursor=pointer]:
+          - /url: /settings
+          - listitem [ref=e96]:
+            - img [ref=e98]
+            - paragraph [ref=e101]: Settings
+        - listitem [ref=e102]:
+          - img [ref=e104]
+          - paragraph [ref=e107]: Logout
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - paragraph [ref=e110]: Leave Management
+        - button "Apply Leave" [ref=e111] [cursor=pointer]
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - paragraph [ref=e115]: "11"
+          - paragraph [ref=e116]: Yearly Total
+        - generic [ref=e117]:
+          - paragraph [ref=e118]: "2"
+          - paragraph [ref=e119]: Yearly Balance
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: "0"
+          - paragraph [ref=e122]: Yearly Utilized
+        - generic [ref=e123]:
+          - paragraph [ref=e124]: "1"
+          - paragraph [ref=e125]: Leaves Left Upto NOV
+        - generic [ref=e126]:
+          - paragraph [ref=e127]: "0"
+          - paragraph [ref=e128]: Extra Work In NOV
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - button "Your History" [ref=e131] [cursor=pointer]
+          - button "Requests" [active] [ref=e132] [cursor=pointer]
+        - generic [ref=e134]:
+          - treegrid [ref=e135]:
+            - generic [ref=e136]:
+              - row "EMP ID NAME" [ref=e137]:
+                - columnheader "EMP ID" [ref=e138]:
+                  - text: 
+                  - generic [ref=e139]: 
+                  - generic [ref=e140]: EMP ID
+                  - text: 
+                  - generic: 
+                - columnheader "NAME" [ref=e141]:
+                  - text: 
+                  - generic [ref=e142]: 
+                  - generic [ref=e143] [cursor=pointer]: NAME
+                  - text: 
+                  - generic:    
+              - row "Open Filter Menu Open Filter Menu" [ref=e144]:
+                - gridcell "Open Filter Menu" [ref=e145]:
+                  - textbox "EMP ID Filter Input" [ref=e146]
+                  - button "Open Filter Menu" [ref=e148] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e149]:
+                  - textbox "NAME Filter Input" [ref=e150]
+                  - button "Open Filter Menu" [ref=e152] [cursor=pointer]: 
+            - rowgroup [ref=e153]:
+              - row "START DATE END DATE REQUEST TYPE DAYS REASON" [ref=e154]:
+                - columnheader "START DATE" [ref=e155]:
+                  - text: 
+                  - generic [ref=e156]: 
+                  - generic [ref=e157]: START DATE
+                  - text: 
+                  - generic: 
+                - columnheader "END DATE" [ref=e158]:
+                  - text: 
+                  - generic [ref=e159]: 
+                  - generic [ref=e160]: END DATE
+                  - text: 
+                  - generic: 
+                - columnheader "REQUEST TYPE" [ref=e161]:
+                  - text: 
+                  - generic [ref=e162]: 
+                  - generic [ref=e163]: REQUEST TYPE
+                  - text: 
+                  - generic: 
+                - columnheader "DAYS" [ref=e164]:
+                  - text: 
+                  - generic [ref=e165]: 
+                  - generic [ref=e166]: DAYS
+                  - text: 
+                  - generic: 
+                - columnheader "REASON" [ref=e167]:
+                  - text: 
+                  - generic [ref=e168]: 
+                  - generic [ref=e169]: REASON
+                  - text: 
+                  - generic: 
+              - row "Open Filter Menu Open Filter Menu Open Filter Menu Open Filter Menu Open Filter Menu" [ref=e170]:
+                - gridcell "Open Filter Menu" [ref=e171]:
+                  - textbox "START DATE Filter Input" [ref=e172]
+                  - button "Open Filter Menu" [ref=e174] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e175]:
+                  - textbox "END DATE Filter Input" [ref=e176]
+                  - button "Open Filter Menu" [ref=e178] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e179]:
+                  - textbox "REQUEST TYPE Filter Input" [ref=e180]
+                  - button "Open Filter Menu" [ref=e182] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e183]:
+                  - textbox "DAYS Filter Input" [ref=e184]
+                  - button "Open Filter Menu" [ref=e186] [cursor=pointer]: 
+                - gridcell "Open Filter Menu" [ref=e187]:
+                  - textbox "REASON Filter Input" [ref=e188]
+                  - button "Open Filter Menu" [ref=e190] [cursor=pointer]: 
+            - generic:
+              - generic:
+                - generic:
+                  - generic: No Rows To Show
+          - generic [ref=e195]:
+            - status [ref=e196]: 0 to 0 of 0
+            - button "First Page" [disabled] [ref=e197]: 
+            - button "Previous Page" [disabled] [ref=e198]: 
+            - status [ref=e199]: Page 0 of 0
+            - button "Next Page" [disabled] [ref=e200]: 
+            - button "Last Page" [disabled] [ref=e201]: 
+```
