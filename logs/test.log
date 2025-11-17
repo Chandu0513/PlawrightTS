@@ -1308,3 +1308,76 @@
 [19:09:13] warn: No leave requests available to approve. Skipping test...
 [19:09:13] info: Tearing down browser session...
 [19:09:13] success: Browser session closed successfully.
+[21:17:05] info: Initializing browser: chromium
+[21:17:07] info: Navigating to base URL: https://dev.urbuddi.com/
+[21:17:10] info: Starting Admin Login flow
+[21:17:10] step: Filling email: testUserAdmin07112025@gmail.com
+[21:17:10] step: Filling password
+[21:17:11] success: Admin login completed successfully!
+[21:17:13] info: Tearing down browser session...
+[21:17:13] success: Browser session closed successfully.
+[19:22:13] info: Initializing browser: chromium
+[19:22:13] info: Initializing browser: chromium
+[19:22:13] info: Initializing browser: chromium
+[19:22:14] info: Initializing browser: chromium
+[19:22:15] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:22:15] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:22:17] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:22:17] info: Starting Admin Login flow
+[19:22:17] step: Filling email: testUserAdmin07112025@gmail.com
+[19:22:18] step: Filling password
+[19:22:18] info: Starting Admin Login flow
+[19:22:18] step: Filling email: testUserAdmin07112025@gmail.com
+[19:22:19] step: Filling password
+[19:22:19] success: Admin login completed successfully!
+[19:22:19] info: Opening Add Employee modal...
+[19:22:19] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:22:19] success: Admin login completed successfully!
+[19:22:20] info: Tearing down browser session...
+[19:22:21] info: Starting Admin Login flow
+[19:22:21] step: Filling email: testUserAdmin07112025@gmail.com
+[19:22:22] info: Starting Admin Login flow
+[19:22:22] step: Filling email: testUserAdmin07112025@gmail.com
+[19:22:22] step: Filling password
+[19:22:22] step: Filling password
+[19:22:22] success: Admin login completed successfully!
+[19:22:22] info: Applying for leave...
+[19:22:22] info: Applying from: 2025-12-17 to: 2025-12-18
+[19:22:23] info: Filling Add Employee form...
+[19:22:24] success: Admin login completed successfully!
+[19:22:24] info: Approving leave request...
+[19:22:25] success: Employee form filled successfully for Brianne Witting (ID: EMP4136)
+[19:22:25] info: Submitting Add Employee form...
+[19:22:25] success: Browser session closed successfully.
+[19:22:26] info: Initializing browser: chromium
+[19:22:26] info: "Requests" button found. Clicking...
+[19:22:28] warn: No leave requests available to approve. Skipping test...
+[19:22:28] info: Tearing down browser session...
+[19:22:28] success: Add Employee modal closed after submission.
+[19:22:28] info: Checking if duplicate employee warning is displayed...
+[19:22:29] warn: Duplicate warning is NOT visible.
+[19:22:29] info: Verifying if employee EMP4136 exists in the list...
+[19:22:30] info: Leave application submitted successfully.
+[19:22:31] info: Tearing down browser session...
+[19:22:31] success: Employee brianne.witting@test.com found in the employee list.
+[19:22:31] info: Checking and deleting employee brianne.witting@test.com if exists...
+[19:22:31] success: Employee brianne.witting@test.com deleted if existed.
+[19:22:31] info: Tearing down browser session...
+[19:22:33] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:22:34] info: Starting Employee Login flow
+[19:22:34] step: Filling email: testemp07112025@gmail.com
+[19:22:34] success: Browser session closed successfully.
+[19:22:34] step: Filling password
+[19:22:35] success: Browser session closed successfully.
+[19:22:35] info: Initializing browser: chromium
+[19:22:37] success: Employee login completed successfully!
+[19:22:37] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:22:37] info: Tearing down browser session...
+[19:22:39] success: Browser session closed successfully.
+[19:22:40] info: Starting Admin Login flow
+[19:22:40] step: Filling email: testUserAdmin07112025@gmail.com
+[19:22:40] step: Filling password
+[19:22:40] success: Browser session closed successfully.
+[19:22:41] success: Admin login completed successfully!
+[19:22:43] info: Tearing down browser session...
+[19:22:44] success: Browser session closed successfully.
