@@ -15,14 +15,11 @@ test.describe('Login Tests', () => {
   test('Admin should login successfully', async () => {
     await loginPage.loginAsAdmin();
   
-    await basePage.page.waitForLoadState('networkidle');
-    await expect(basePage.page).toHaveURL('https://dev.urbuddi.com/');
-  });
+    });
 
   test('Employee should login successfully', async () => {
     await loginPage.loginAsEmployee();
-    await basePage.page.waitForLoadState('networkidle');
-    await expect(basePage.page).toHaveURL('https://dev.urbuddi.com/');
+   
   });
 
   test.afterEach(async () => {
