@@ -1,0 +1,11 @@
+[17:32:06] info: Initializing browser: chromium
+[17:32:06] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:32:07] info: Starting Admin Login flow
+[17:32:07] step: Filling email: testUserAdmin07112025@gmail.com
+[17:32:08] step: Filling password
+[17:32:09] success: Admin login completed successfully!
+[17:32:09] info: Starting Employee Lead Change process...
+[17:32:09] step: Clicked Your Profile link
+[17:32:09] step: Clicked Others button
+[17:32:09] step: Clicked options section
+[17:32:10] info: Dropdown options found: 

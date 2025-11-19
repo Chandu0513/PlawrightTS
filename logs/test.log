@@ -1425,3 +1425,186 @@
 [18:13:05] success: Extra work submitted successfully!
 [18:13:05] info: Tearing down browser session...
 [18:13:05] success: Browser session closed successfully.
+[18:45:19] info: Initializing browser: chromium
+[18:45:20] info: Navigating to base URL: https://dev.urbuddi.com/
+[18:45:21] info: Starting Admin Login flow
+[18:45:21] step: Filling email: testUserAdmin07112025@gmail.com
+[18:45:21] step: Filling password
+[18:45:22] success: Admin login completed successfully!
+[18:45:22] info: Applying for leave...
+[18:45:22] info: Applying from: 2025-12-04 to: 2025-12-05
+[18:45:23] info: Leave application submitted successfully.
+[18:45:23] info: Tearing down browser session...
+[18:45:24] success: Browser session closed successfully.
+[15:03:16] info: Initializing browser: chromium
+[15:03:16] info: Initializing browser: chromium
+[15:03:16] info: Initializing browser: chromium
+[15:03:16] info: Initializing browser: chromium
+[15:03:17] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:03:18] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:03:20] info: Starting Admin Login flow
+[15:03:20] step: Filling email: testUserAdmin07112025@gmail.com
+[15:03:20] step: Filling password
+[15:03:21] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:03:21] info: Starting Admin Login flow
+[15:03:21] step: Filling email: testUserAdmin07112025@gmail.com
+[15:03:21] step: Filling password
+[15:03:21] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:03:22] success: Admin login completed successfully!
+[15:03:22] info: Approving leave request...
+[15:03:22] success: Admin login completed successfully!
+[15:03:22] info: Tearing down browser session...
+[15:03:23] info: Starting Admin Login flow
+[15:03:23] step: Filling email: testUserAdmin07112025@gmail.com
+[15:03:23] step: Filling password
+[15:03:24] info: "Requests" button found. Clicking...
+[15:03:24] warn: No leave requests available to approve. Skipping test...
+[15:03:24] info: Tearing down browser session...
+[15:03:25] info: Starting Admin Login flow
+[15:03:25] step: Filling email: testUserAdmin07112025@gmail.com
+[15:03:25] step: Filling password
+[15:03:26] success: Admin login completed successfully!
+[15:03:26] info: Applying for leave...
+[15:03:26] info: Applying from: 2025-11-21 to: 2025-11-24
+[15:03:27] success: Browser session closed successfully.
+[15:03:27] success: Admin login completed successfully!
+[15:03:27] info: Opening Add Employee modal...
+[15:03:28] info: Leave application submitted successfully.
+[15:03:28] info: Tearing down browser session...
+[15:03:29] info: Initializing browser: chromium
+[15:03:29] info: Filling Add Employee form...
+[15:03:30] success: Browser session closed successfully.
+[15:03:30] info: Initializing browser: chromium
+[15:03:31] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:03:33] info: Starting Admin Login flow
+[15:03:33] step: Filling email: testUserAdmin07112025@gmail.com
+[15:03:33] step: Filling password
+[15:03:33] success: Employee form filled successfully for Guy Rogahn (ID: EMP4114)
+[15:03:33] info: Submitting Add Employee form...
+[15:03:33] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:03:34] success: Browser session closed successfully.
+[15:03:34] info: Initializing browser: chromium
+[15:03:35] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:03:37] success: Add Employee modal closed after submission.
+[15:03:37] info: Checking if duplicate employee warning is displayed...
+[15:03:37] warn: Duplicate warning is NOT visible.
+[15:03:37] info: Verifying if employee EMP4114 exists in the list...
+[15:03:37] info: Starting Employee Login flow
+[15:03:37] step: Filling email: testemp07112025@gmail.com
+[15:03:37] info: Starting Admin Login flow
+[15:03:37] step: Filling email: testUserAdmin07112025@gmail.com
+[15:03:38] step: Filling password
+[15:03:38] step: Filling password
+[15:03:40] info: Tearing down browser session...
+[15:03:41] success: Browser session closed successfully.
+[15:04:26] success: Employee login completed successfully!
+[15:04:26] info: Tearing down browser session...
+[15:04:26] success: Admin login completed successfully!
+[15:04:27] success: Admin login completed successfully!
+[15:04:27] success: Browser session closed successfully.
+[15:04:27] info: Applying for extra work reimbursement...
+[15:04:28] step: Filling out extra work form...
+[15:04:28] step: Entering hours worked...
+[15:04:28] step: Selecting user for reimbursement...
+[15:04:28] step: Submitting extra work reimbursement request...
+[15:04:28] success: Extra work submitted successfully!
+[15:04:28] info: Tearing down browser session...
+[15:04:29] info: Tearing down browser session...
+[15:04:29] success: Browser session closed successfully.
+[15:04:29] success: Browser session closed successfully.
+[15:05:28] info: Initializing browser: chromium
+[15:05:29] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:05:30] info: Starting Admin Login flow
+[15:05:30] step: Filling email: testUserAdmin07112025@gmail.com
+[15:05:31] step: Filling password
+[15:05:32] success: Admin login completed successfully!
+[15:05:32] info: Opening Add Employee modal...
+[15:05:34] info: Filling Add Employee form...
+[15:05:36] success: Employee form filled successfully for Meredith Schneider (ID: EMP2923)
+[15:05:36] info: Submitting Add Employee form...
+[15:05:40] success: Add Employee modal closed after submission.
+[15:05:40] info: Checking if duplicate employee warning is displayed...
+[15:05:40] warn: Duplicate warning is NOT visible.
+[15:05:40] info: Verifying if employee EMP2923 exists in the list...
+[15:05:41] success: Employee meredith.schneider@test.com found in the employee list.
+[15:05:41] info: Checking and deleting employee meredith.schneider@test.com if exists...
+[15:05:42] success: Employee meredith.schneider@test.com deleted if existed.
+[15:05:42] info: Tearing down browser session...
+[15:05:42] success: Browser session closed successfully.
+[16:09:41] info: Initializing browser: chromium
+[16:09:42] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:09:44] info: Starting Admin Login flow
+[16:09:44] step: Filling email: testUserAdmin07112025@gmail.com
+[16:09:44] step: Filling password
+[16:09:46] success: Admin login completed successfully!
+[16:09:47] info: Tearing down browser session...
+[16:09:48] success: Browser session closed successfully.
+[16:11:40] info: Initializing browser: chromium
+[16:11:41] info: Navigating to base URL: https://dev.urbuddi.com/
+[16:11:43] info: Starting Admin Login flow
+[16:11:43] step: Filling email: testUserAdmin07112025@gmail.com
+[16:11:43] step: Filling password
+[16:11:44] success: Admin login completed successfully!
+[16:11:46] info: Tearing down browser session...
+[16:11:46] success: Browser session closed successfully.
+[17:28:12] info: Initializing browser: chromium
+[17:28:12] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:28:13] info: Starting Admin Login flow
+[17:28:13] step: Filling email: testUserAdmin07112025@gmail.com
+[17:28:14] step: Filling password
+[17:28:15] success: Admin login completed successfully!
+[17:28:15] info: Starting Employee Lead Change process...
+[17:28:15] step: Clicked Your Profile link
+[17:28:16] step: Clicked Others button
+[17:28:16] step: Clicked options section
+[17:28:16] step: Clicked Submit button
+[17:28:16] step: Clicked Personal Info button
+[17:28:16] success: Employee Lead Change completed successfully!
+[17:32:06] info: Initializing browser: chromium
+[17:32:06] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:32:07] info: Starting Admin Login flow
+[17:32:07] step: Filling email: testUserAdmin07112025@gmail.com
+[17:32:08] step: Filling password
+[17:32:09] success: Admin login completed successfully!
+[17:32:09] info: Starting Employee Lead Change process...
+[17:32:09] step: Clicked Your Profile link
+[17:32:09] step: Clicked Others button
+[17:32:09] step: Clicked options section
+[17:32:10] info: Dropdown options found: 
+[17:34:52] info: Initializing browser: chromium
+[17:34:53] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:34:54] info: Starting Admin Login flow
+[17:34:54] step: Filling email: testUserAdmin07112025@gmail.com
+[17:34:55] step: Filling password
+[17:34:56] success: Admin login completed successfully!
+[17:34:56] info: Starting Employee Lead Change process...
+[17:34:56] info: Dropdown options: 
+[17:36:37] info: Initializing browser: chromium
+[17:36:38] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:36:40] info: Starting Admin Login flow
+[17:36:40] step: Filling email: testUserAdmin07112025@gmail.com
+[17:36:40] step: Filling password
+[17:36:41] success: Admin login completed successfully!
+[17:36:41] info: Starting Employee Lead Change process...
+[17:36:42] info: Dropdown options: ,Dashboard,Employees,Leave Management,Salary Management,Payslip,Resource Tracking,Reimbursement,Expenditure,Policies,Your Profile,Leave Overview,Settings,Logout,Personal Info,Employment Details,Skills,Others
+[17:36:42] info: 🎯 Selected Lead for this run: 
+[19:07:38] info: Initializing browser: chromium
+[19:07:39] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:07:40] info: Starting Admin Login flow
+[19:07:40] step: Filling email: testUserAdmin07112025@gmail.com
+[19:07:40] step: Filling password
+[19:07:41] success: Admin login completed successfully!
+[19:07:41] info: Starting Employee Lead Change process...
+[19:07:42] info: Dropdown emails: testuserthree@gmail.com,testusertwo1@gmail.com,karankumar.barma+1@optimworks.com,bhudeva.khatri@hotmail.com,bato@gmail.com,sasank.brundavanam@yopmail.com,urbuddiadmin@yopmail.com,angelmiller@yopmail.com,johnvazquez@yopmail.com,jogesh.doddi@optimworks.com,koushik56@gmail.com,nothing111@gmail.com,nothing11@gmail.com,backendrap123@openskale.com,govardhan.gottemukkula@openskale.com,santosh.naruje@openskale.com,nikhil.pachipala@optimworks.com,twl4admin@gmail.com,kumar77@gmail.com,saikiran.kodurupaka@optimworks.com,charan@optimworks.com,nafreenbegum@optimworks.com,testuseradmin07112025@gmail.com,kdl5u9@optimworks.com,prem11@gmail.com,testautomationexe1@gmail.com,vikasv@gmail.com
+[19:07:42] info: Selected Lead for this run: testusertwo1@gmail.com
+[19:07:42] success: Lead updated successfully!
+[19:07:54] info: Initializing browser: chromium
+[19:07:55] info: Navigating to base URL: https://dev.urbuddi.com/
+[19:07:56] info: Starting Admin Login flow
+[19:07:56] step: Filling email: testUserAdmin07112025@gmail.com
+[19:07:56] step: Filling password
+[19:07:57] success: Admin login completed successfully!
+[19:07:57] info: Starting Employee Lead Change process...
+[19:07:58] info: Dropdown emails: testuserthree@gmail.com,testusertwo1@gmail.com,karankumar.barma+1@optimworks.com,bhudeva.khatri@hotmail.com,bato@gmail.com,sasank.brundavanam@yopmail.com,urbuddiadmin@yopmail.com,angelmiller@yopmail.com,johnvazquez@yopmail.com,jogesh.doddi@optimworks.com,koushik56@gmail.com,nothing111@gmail.com,nothing11@gmail.com,backendrap123@openskale.com,govardhan.gottemukkula@openskale.com,santosh.naruje@openskale.com,nikhil.pachipala@optimworks.com,twl4admin@gmail.com,kumar77@gmail.com,saikiran.kodurupaka@optimworks.com,charan@optimworks.com,nafreenbegum@optimworks.com,testuseradmin07112025@gmail.com,kdl5u9@optimworks.com,prem11@gmail.com,testautomationexe1@gmail.com,vikasv@gmail.com
+[19:07:58] info: Selected Lead for this run: karankumar.barma+1@optimworks.com
+[19:07:58] success: Lead updated successfully!

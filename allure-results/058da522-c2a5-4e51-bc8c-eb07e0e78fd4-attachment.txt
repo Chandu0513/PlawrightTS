@@ -1,0 +1,9 @@
+[17:36:37] info: Initializing browser: chromium
+[17:36:38] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:36:40] info: Starting Admin Login flow
+[17:36:40] step: Filling email: testUserAdmin07112025@gmail.com
+[17:36:40] step: Filling password
+[17:36:41] success: Admin login completed successfully!
+[17:36:41] info: Starting Employee Lead Change process...
+[17:36:42] info: Dropdown options: ,Dashboard,Employees,Leave Management,Salary Management,Payslip,Resource Tracking,Reimbursement,Expenditure,Policies,Your Profile,Leave Overview,Settings,Logout,Personal Info,Employment Details,Skills,Others
+[17:36:42] info: 🎯 Selected Lead for this run: 
