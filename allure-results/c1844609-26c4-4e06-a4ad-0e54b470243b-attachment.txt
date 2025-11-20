@@ -1,0 +1,10 @@
+[15:11:21] info: Initializing browser: chromium
+[15:11:22] info: Navigating to base URL: https://dev.urbuddi.com/
+[15:11:24] info: Starting Admin Login flow
+[15:11:24] step: Filling email: testUserAdmin07112025@gmail.com
+[15:11:24] step: Filling password
+[15:11:25] success: Admin login completed successfully!
+[15:11:25] info: Starting Skill Add Process...
+[15:11:27] success: Skill 'Selenium' added successfully with rating 10
+[15:11:27] info: Tearing down browser session...
+[15:11:27] success: Browser session closed successfully.
