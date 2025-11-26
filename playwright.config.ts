@@ -4,6 +4,7 @@ dotenv.config();
 
 export default defineConfig({
   testDir: './tests',
+  
 
   /* General behavior */
   forbidOnly: !!process.env.CI,

@@ -43,6 +43,8 @@ export class BasePage {
     }
   }
 
+  
+
   async tearDown() {
     log.info('Tearing down browser session...');
     if (this.page) await this.page.close();
