@@ -1,0 +1,10 @@
+[17:12:00] info: Initializing browser: chromium
+[17:12:01] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:12:04] info: Starting Admin Login flow
+[17:12:04] step: Filling email: testUserAdmin07112025@gmail.com
+[17:12:04] step: Filling password
+[17:12:06] success: Admin login completed successfully!
+[17:12:06] info: Starting Employee Lead Change process...
+[17:12:09] info: Dropdown emails: testuserthree@gmail.com,testusertwo1@gmail.com,karankumar.barma+1@optimworks.com,bhudeva.khatri@hotmail.com,sasank.brundavanam@yopmail.com,urbuddiadmin@yopmail.com,angelmiller@yopmail.com,johnvazquez@yopmail.com,jogesh.doddi@optimworks.com,nothing111@gmail.com,nothing11@gmail.com,backendrap123@openskale.com,govardhan.gottemukkula@openskale.com,santosh.naruje@openskale.com,nikhil.pachipala@optimworks.com,twl4admin@gmail.com,kumar77@gmail.com,saikiran.kodurupaka@optimworks.com,charan@optimworks.com,nafreenbegum@optimworks.com,v73hqv@optimworks.com,pow67710@gmail.com,testuseradmin07112025@gmail.com,kdl5u9@optimworks.com,srikanthreddy.udumula@optimworks.com,testautomationexe1@gmail.com,vikasv@gmail.com
+[17:12:09] info: Selected Lead for this run: bhudeva.khatri@hotmail.com
+[17:12:09] success: Lead updated successfully!

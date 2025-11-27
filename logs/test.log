@@ -1628,3 +1628,102 @@
 [15:11:52] success: Skill 'Selenium' added successfully with rating 10
 [15:11:52] info: Tearing down browser session...
 [15:11:52] success: Browser session closed successfully.
+[17:11:41] info: Initializing browser: chromium
+[17:11:41] info: Initializing browser: chromium
+[17:11:41] info: Initializing browser: chromium
+[17:11:42] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:11:45] info: Starting Admin Login flow
+[17:11:45] step: Filling email: testUserAdmin07112025@gmail.com
+[17:11:45] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:11:45] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:11:45] step: Filling password
+[17:11:46] success: Admin login completed successfully!
+[17:11:46] info: Approving leave request...
+[17:11:48] info: Starting Admin Login flow
+[17:11:48] step: Filling email: testUserAdmin07112025@gmail.com
+[17:11:48] info: Starting Admin Login flow
+[17:11:48] step: Filling email: testUserAdmin07112025@gmail.com
+[17:11:49] step: Filling password
+[17:11:49] step: Filling password
+[17:11:49] success: Admin login completed successfully!
+[17:11:49] info: Applying for leave...
+[17:11:49] info: Applying from: 2025-11-10 to: 2025-11-11
+[17:11:49] success: Admin login completed successfully!
+[17:11:49] info: Opening Add Employee modal...
+[17:11:51] info: "Requests" button found. Clicking...
+[17:11:51] warn: No leave requests available to approve. Skipping test...
+[17:11:52] info: Tearing down browser session...
+[17:11:53] info: Filling Add Employee form...
+[17:11:53] info: Leave application submitted successfully.
+[17:11:54] info: Tearing down browser session...
+[17:11:55] info: Initializing browser: chromium
+[17:11:56] success: Employee form filled successfully for Kavon Roob (ID: EMP9891)
+[17:11:56] info: Submitting Add Employee form...
+[17:11:57] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:11:59] info: Starting Admin Login flow
+[17:11:59] step: Filling email: testUserAdmin07112025@gmail.com
+[17:11:59] step: Filling password
+[17:11:59] success: Add Employee modal closed after submission.
+[17:11:59] info: Checking if duplicate employee warning is displayed...
+[17:11:59] warn: Duplicate warning is NOT visible.
+[17:11:59] info: Verifying if employee EMP9891 exists in the list...
+[17:11:59] success: Browser session closed successfully.
+[17:12:00] info: Initializing browser: chromium
+[17:12:00] success: Browser session closed successfully.
+[17:12:00] info: Initializing browser: chromium
+[17:12:01] success: Admin login completed successfully!
+[17:12:01] info: Starting Skill Add Process...
+[17:12:01] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:12:02] success: Employee kavon.roob@test.com found in the employee list.
+[17:12:02] info: Checking and deleting employee kavon.roob@test.com if exists...
+[17:12:02] success: Employee kavon.roob@test.com deleted if existed.
+[17:12:02] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:12:02] info: Tearing down browser session...
+[17:12:04] info: Starting Admin Login flow
+[17:12:04] step: Filling email: testUserAdmin07112025@gmail.com
+[17:12:04] step: Filling password
+[17:12:04] info: Starting Admin Login flow
+[17:12:04] step: Filling email: testUserAdmin07112025@gmail.com
+[17:12:05] step: Filling password
+[17:12:05] success: Skill 'Selenium' added successfully with rating 10
+[17:12:05] success: Admin login completed successfully!
+[17:12:05] info: Tearing down browser session...
+[17:12:06] info: Tearing down browser session...
+[17:12:06] success: Admin login completed successfully!
+[17:12:06] info: Starting Employee Lead Change process...
+[17:12:07] success: Browser session closed successfully.
+[17:12:07] success: Browser session closed successfully.
+[17:12:07] success: Browser session closed successfully.
+[17:12:07] info: Initializing browser: chromium
+[17:12:07] info: Initializing browser: chromium
+[17:12:08] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:12:09] info: Initializing browser: chromium
+[17:12:09] info: Dropdown emails: testuserthree@gmail.com,testusertwo1@gmail.com,karankumar.barma+1@optimworks.com,bhudeva.khatri@hotmail.com,sasank.brundavanam@yopmail.com,urbuddiadmin@yopmail.com,angelmiller@yopmail.com,johnvazquez@yopmail.com,jogesh.doddi@optimworks.com,nothing111@gmail.com,nothing11@gmail.com,backendrap123@openskale.com,govardhan.gottemukkula@openskale.com,santosh.naruje@openskale.com,nikhil.pachipala@optimworks.com,twl4admin@gmail.com,kumar77@gmail.com,saikiran.kodurupaka@optimworks.com,charan@optimworks.com,nafreenbegum@optimworks.com,v73hqv@optimworks.com,pow67710@gmail.com,testuseradmin07112025@gmail.com,kdl5u9@optimworks.com,srikanthreddy.udumula@optimworks.com,testautomationexe1@gmail.com,vikasv@gmail.com
+[17:12:09] info: Selected Lead for this run: bhudeva.khatri@hotmail.com
+[17:12:09] success: Lead updated successfully!
+[17:12:10] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:12:11] info: Starting Admin Login flow
+[17:12:11] step: Filling email: testUserAdmin07112025@gmail.com
+[17:12:11] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:12:12] info: Starting Employee Login flow
+[17:12:12] step: Filling email: testemp07112025@gmail.com
+[17:12:12] step: Filling password
+[17:12:12] step: Filling password
+[17:12:14] success: Admin login completed successfully!
+[17:12:14] info: Starting Admin Login flow
+[17:12:14] step: Filling email: testUserAdmin07112025@gmail.com
+[17:12:14] step: Filling password
+[17:12:14] success: Employee login completed successfully!
+[17:12:14] success: Admin login completed successfully!
+[17:12:14] info: Tearing down browser session...
+[17:12:17] info: Tearing down browser session...
+[17:12:17] info: Applying for extra work reimbursement...
+[17:12:17] success: Browser session closed successfully.
+[17:12:18] step: Filling out extra work form...
+[17:12:18] step: Entering hours worked...
+[17:12:18] step: Selecting user for reimbursement...
+[17:12:18] step: Submitting extra work reimbursement request...
+[17:12:18] success: Extra work submitted successfully!
+[17:12:18] info: Tearing down browser session...
+[17:12:18] success: Browser session closed successfully.
+[17:12:19] success: Browser session closed successfully.

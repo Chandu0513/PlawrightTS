@@ -1,0 +1,11 @@
+[17:11:41] info: Initializing browser: chromium
+[17:11:45] info: Navigating to base URL: https://dev.urbuddi.com/
+[17:11:48] info: Starting Admin Login flow
+[17:11:48] step: Filling email: testUserAdmin07112025@gmail.com
+[17:11:49] step: Filling password
+[17:11:49] success: Admin login completed successfully!
+[17:11:49] info: Applying for leave...
+[17:11:49] info: Applying from: 2025-11-10 to: 2025-11-11
+[17:11:53] info: Leave application submitted successfully.
+[17:11:54] info: Tearing down browser session...
+[17:12:00] success: Browser session closed successfully.
