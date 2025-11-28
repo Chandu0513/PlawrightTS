@@ -18,7 +18,7 @@ test('Login works on slow network', async ({ page, context }) => {
   await page.fill('#userPassword', 'Test@123');
   await page.click('button[type="submit"]');
 
-//branch test comment ignore 
+//branch test comment igno
   // Restore normal network after test
   await network.resetNetwork();
   await network.goOnline();
